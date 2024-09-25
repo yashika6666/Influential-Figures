@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Influential Figures</title>
+    <style>
+        body {
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color:  #f5f5dc; /* Beige background */
+            color:  #001f3f; /* Navy blue font color */
+            font-style: italic;
+        }
+
+        .overlay {
+            padding: 10px;
+            background-color: rgba(251, 238, 223, 0.8); /* Slightly transparent beige */
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 24px;
+            color: #001f3f; /* Navy blue for logo */
+        }
+
+        .nav-links {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: #001f3f; /* Navy blue text */
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .nav-links a:hover {
+            color: #003366; /* Darker navy on hover */
+        }
+
+        .content {
+            width: 600px;
+            margin: 70px auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: #001f3f; /* Navy blue */
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #001f3f; /* Navy blue */
+            text-align: justify;
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+
+        .contact-form {
+            margin: 40px auto;
+            text-align: left;
+            width: 600px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #001f3f; /* Navy blue */
+            color: #ffffff;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-left: 39%;
+        }
+
+        .contact-form button:hover {
+            background-color: #003366; /* Darker navy on hover */
+        }
+
+        footer {
+            background-color: #001f3f; /* Navy blue */
+            color: white;
+            text-align: center;
+            padding: 15px;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 1em;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">Influential Figures</div>
+                <ul class="nav-links">
+                    <li><a href="Website2.html">Home</a></li>
+                    <li><a href="inspirations.html">Inspirations</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <h1>About Us</h1>
+            <p>Welcome to Influential Figures, a platform dedicated to celebrating the extraordinary lives and contributions of India's great leaders, visionaries, and reformers. Our mission is to educate and inspire through the rich tapestry of stories that have shaped our nation's history.</p>
+            <p>We believe that understanding the past is crucial for a brighter future. Through our website, we aim to provide a comprehensive overview of the lives, struggles, and achievements of these remarkable personalities.</p>
+            <p>Join us in honoring their legacies and discovering the inspiration they bring to our lives today.</p>
+
+            <h1>Contact Us</h1>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Influential Figures. All rights reserved.
+    </footer>
+</body>
+</html>
