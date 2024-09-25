@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Influential Figures - Sections</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: #f5f5dc; /* Beige */
+            color: #001f3f; /* Navy blue */
+            margin: 0;
+            padding: 0;
+            font-style: italic;
+        }
+
+        .overlay {
+            background-color: rgba(251, 238, 223, 0.8); /* Transparent beige */
+            padding: 10px;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 24px;
+            color: #001f3f;
+        }
+
+        .nav-links {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: #001f3f; /* Navy blue text */
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .nav-links a:hover {
+            color: #ca5b5b;
+        }
+
+        .content {
+            width: 800px;
+            margin: 70px auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #001f3f;
+            margin-bottom: 30px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #a4a7b477; /* Lighter beige */
+            border-radius: 10px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        /* Hover effect on sections */
+        section:hover {
+            background-color: #8690a1c7; /* Darker beige on hover */
+            transform: scale(1.05); /* Zoom effect */
+        }
+
+        h2 {
+            font-size: 36px;
+            color: #001f3f;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #001f3f;
+            margin-bottom: 20px;
+        }
+
+        /* Button style */
+        .section-button {
+            background-color: #001f3f; /* Navy blue */
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .section-button:hover {
+            background-color: #003366; /* Darker navy blue */
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #001f3f; /* Navy blue */
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 0px;
+        }
+
+        footer p {
+            font-size: 1em;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="container">
+            <!-- Navigation Bar -->
+            <nav class="navbar">
+                <div class="logo">Influential Figures</div>
+                <ul class="nav-links">
+                    <li><a href="Website2.html">Home</a></li>
+                    <li><a href="inspirations.html">Inspirations</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+
+            <!-- Content -->
+            <div class="content">
+                <h1>Explore India's Most Influential Leaders</h1>
+
+                <!-- Visionaries Section -->
+                <section>
+                    <h2>Visionaries</h2>
+                    <p>This section focuses on the forward-thinking leaders who envisioned a stronger, united India. From Mahatma Gandhi’s principles of non-violence to Dr. B.R. Ambedkar’s work on social justice, discover the ideas that shaped the nation’s progress.</p>
+                    <button class="section-button" onclick="window.location.href='visionaries.html'">>>></button>
+                </section>
+
+                <!-- Freedom Fighters Section -->
+                <section>
+                    <h2>Freedom Fighters</h2>
+                    <p>Dedicated to the brave individuals who fought for India’s independence, this section highlights their sacrifices and the crucial roles they played in the nation’s freedom struggle, such as Bhagat Singh, Rani Lakshmibai, and Subhas Chandra Bose.</p>
+                    <button class="section-button" onclick="window.location.href='freedomfighters.html'">>>></button>
+                </section>
+
+                <!-- Social Reformers Section -->
+                <section>
+                    <h2>Social Reformers</h2>
+                    <p>Explore the lives of leaders who worked to eliminate social evils and uplift marginalized communities. Figures like Savitribai Phule, Swami Vivekananda, and Raja Ram Mohan Roy made significant contributions toward building a more just and equal society.</p>
+                    <button class="section-button" onclick="window.location.href='socialreformers.html'">>>></button>
+                </section>
+
+                <!-- Cultural Icons Section -->
+                <section>
+                    <h2>Cultural Icons</h2>
+                    <p>India’s culture is rich and diverse, and this section celebrates the artists, poets, writers, and thinkers who contributed to this cultural fabric. From Rabindranath Tagore to M.S. Subbulakshmi, learn about those who enriched Indian heritage.</p>
+                    <button class="section-button" onclick="window.location.href='culturalicons.html'">>>></button>
+                </section>
+
+                <!-- Modern Leaders Section -->
+                <section>
+                    <h2>Modern Leaders</h2>
+                    <p>Highlighting the contributions of contemporary leaders who have made significant impacts in politics, science, technology, and social change. Figures like A.P.J. Abdul Kalam, Sushma Swaraj, and Kailash Satyarthi have inspired modern India.</p>
+                    <button class="section-button" onclick="window.location.href='modernleaders.html'">>>></button>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Influential Figures. All rights reserved.
+    </footer>
+</body>
+</html>
