@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Influential Figures</title>
+    <style>
+        /* General page styling */
+        body {
+            font-family: 'Arial', sans-serif; /* Use the same font as your website */
+            background-color: rgba(251, 238, 223, 0.8); /* Beige background */
+            color: #001F3F; /* Navy blue font */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            margin: 0;
+        }
+        
+
+        /* Login form container */
+        .login-container {
+            background-color:#a4a7b477;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+
+            text-align: center;
+        }
+        .overlays {
+            background-color: ; /* Transparent beige */
+            padding: 10%;
+        }
+       
+        
+        /* Form elements styling */
+        h2 {
+            color: #001F3F;
+            margin-bottom: 20px;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        label {
+            font-size: 14px;
+            color: #001F3F;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input:focus {
+            border-color: #001F3F;
+            outline: none;
+        }
+
+        .btn {
+            background-color: #001F3F;
+            color: #FFF;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .btn:hover {
+            background-color: #003366;
+        }
+
+        a {
+            color: #001F3F;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<div class="overlays">
+    
+    <div class="login-container">
+        
+        <h2>Login to Your Account</h2>
+        <form action="/dashboard" method="post">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn">Login</button>
+        </form>
+        <p>Don't have an account? <a href="/register">Register here</a></p>
+    </div>
+</div>
+</body>
+</html>
